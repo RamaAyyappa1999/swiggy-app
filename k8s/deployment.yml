@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: swiggy
-          image: REPLACE_IMAGE   # <-- replaced by pipeline
+          image: swiggy-app:1.0.0   # <-- replaced by pipeline
           ports:
             - containerPort: 3000
           readinessProbe:
